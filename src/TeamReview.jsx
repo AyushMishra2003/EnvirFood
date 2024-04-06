@@ -44,7 +44,7 @@ const Review = () => {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 2,
               slidesToScroll: 2,
               infinite:true
               // initialSlide: 2
