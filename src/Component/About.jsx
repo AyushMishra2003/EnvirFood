@@ -9,14 +9,14 @@ const About = () => {
   return (
     <div className='flex flex-col items-center hero-img w-[100%] h-[100vh] gap-[2.5rem]'>
      
-      <div className=' gap-[1rem] mt-[7rem]  flex flex-col items-center justify-center'>
+      <div className=' gap-[2rem] lg:mt-[7rem] mt-[2rem]  flex flex-col items-center justify-center'>
         {/* <p className=' text-white text-[2.5rem]  ont-mono'>Be Natural</p> */}
          <div className='flex flex-col items-center justify-center font-serif '>
-            <p className='text-white xl:text-[3.5rem] font-curve text-[1.7rem] sm:text-[2rem] md:text-[3rem]'>Innovate your food product with us !</p>
-            <p className='text-white xl:text-[1rem] w-[15rem] sm:text-center sm:w-[30rem] sm:text-[2rem] text-[1.5rem] md:w-[40rem] '>Advance solution  in Product development & Pilot Manufacturing</p>
+            <p className='text-white xl:text-[3.5rem] font-curve text-[1.1rem] sm:text-[2rem] md:text-[2rem]'>Innovate your food product with us !</p>
+            <p className='text-white text-center xl:text-[1rem] w-[20rem] sm:text-center sm:w-[30rem] sm:text-[1.4rem] text-[1.5rem] md:w-[40rem] '>Advance solution  in Product development & Pilot Manufacturing</p>
          </div>
         {/* <Typewriter text="Welcome to the Environmental Food Research Center" delay={100} infinite  /> */}
-        <div className='flex sm:flex-row flex-col xl:gap-[2rem] gap-[1rem] text-white xl:items-center items-start justify-center border-t-2 border-b-2 p-[2rem]'>
+        <div className='flex sm:flex-row flex-col xl:gap-[2rem] gap-[0.5rem] text-white xl:items-center items-start justify-center border-t-2 border-b-2 p-[0.2rem]'>
           <div className='flex text-[1.5rem] items-center justify-center'>
             <img src={reasearch} alt="" className='xl:w-[4rem]' />
             <p className='font-serif'>Research</p>

@@ -11,7 +11,7 @@ const useTeamData=[
     {
       "image":img2,
       "name":"Mr ATUL PANDEY",
-      "profession":"Founder Director,(Enterpreneur&Guest Teaching Faculty-BHU,Enterpreneurship Trainer at MSMEs,NIESBUD & IIC"
+      "profession":"Founder Director,(Enterpreneur&Guest) Teaching Faculty-BHU"
     },
     {
       "image":img6,

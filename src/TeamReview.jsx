@@ -25,8 +25,8 @@ const Review = () => {
           {
             breakpoint: 1075,
             settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
+              slidesToShow: 3,
+              slidesToScroll: 3,
               infinite: true,
               centerMode:true,
               // dots: true
@@ -61,8 +61,8 @@ const Review = () => {
     ]
    };
   return (
-    <div className='w-[100vw] flex flex-col items-center justify-center gap-[3rem] pb-[2rem] '>
-       <Slider {...settings} className='flex items-center justify-center  w-[50rem]  sm:w-[70rem]'>
+    <div className='w-[100vw] flex flex-col items-center justify-center gap-[3rem] pb-[2rem]'>
+       <Slider {...settings} className='flex items-center justify-center  w-[50rem]  sm:w-[70rem] gap-[2rem] '>
            {useTeamData.map((val,ind)=><TeamCard image={val.image} name={val.name} profession={val.profession} key={ind+1}/>)}
        </Slider>
     </div>

@@ -11,7 +11,7 @@ import { MdEmail } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 const Footer = () => {
   return (
-    <div className='w-[100vw] p-[1.5rem]  pt-[6rem] bg-black text-white flex flex-wrap gap-[4rem] items-center lg:justify-center lg:items-start'>
+    <div className='w-[100vw] p-[1.5rem]  pt-[6rem] bg-black text-white flex flex-wrap gap-[2rem] items-center lg:justify-center lg:items-start'>
       {/* LEFT FOOTER */}
       <div className='flex flex-col gap-[1.5rem] '>
         <div>

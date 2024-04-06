@@ -43,10 +43,10 @@ const ContactPage = () => {
                 <p>Email Address</p>
                 <input type="email" placeholder='Enter Your Email Address' className='pr-[7rem] border-none lg:pr-[10rem] xl:pr-[18rem]  bg-[#0B0E11]' />
               </div>
-              <div className='border-b-2 border-white'>
+              {/* <div className='border-b-2 border-white'>
                 <p>Phone Number</p>
                 <input type="number" placeholder='Enter Your Mobile Number' className='pr-[7rem] border-none lg:pr-[10rem] xl:pr-[18rem]  bg-[#0B0E11]' />
-              </div>
+              </div> */}
               <div className='border-b-2 border-white'>
                 <p>Message</p>
                 <textarea placeholder='Enter Your Message' className=' w-[18rem] h-[4rem] border-none lg:w-[22rem] bg-[#0B0E11] xl:w-[29rem] resize-none'/>
