@@ -13,12 +13,12 @@ const useLatestResearchData=[
         "image":perfume,
         "For":"PERFUME",
         // "link":"At the Environmental Food Research Center , our commitment to sustainability extends beyond food production to encompass all aspects of daily life. That's why we're excited to announce our pioneering research initiative into natural perfume..",
-        "content":"At the Environmental Food Research Center , our commitment to sustainability extends beyond food production to encompass all aspects of daily life. That's why we're excited to announce our pioneering research initiative into natural perfume..",
+        "content":"At the Environmental Food Research Center , our commitment to sustainability extends beyond food production to encompass all aspects of daily life. That's why we're  announce our  research into natural perfume..",
     },
     {
         "image":kesar,
         "For":"Kesar",
-         "content":"At the Environmental Food Research Center , we are passionate about exploring the potential of natural ingredients to enhance both culinary experiences and environmental sustainability. Today, we are excited to introduce our research initiative focused on natural Kesar, also known as saffron.",
+         "content":"At the Environmental Food Research Center , we are passionate about exploring the potential of natural ingredients to enhance both culinary experiences and environmental sustainability.",
     },
 ]
 export default useLatestResearchData

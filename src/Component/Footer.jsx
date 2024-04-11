@@ -9,6 +9,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { CiPhone } from "react-icons/ci";
 import { MdEmail } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
+
 const Footer = () => {
   return (
     <div className='w-[100vw] p-[1.5rem]  pt-[6rem] bg-black text-white flex flex-wrap gap-[2rem] items-center lg:justify-center lg:items-start'>
@@ -52,19 +53,19 @@ const Footer = () => {
         <div className='flex flex-col gap-1 font-thin'>
         <div className='flex items-center ease-in duration-500 cursor-pointer hover:px-[0.6rem] hover:text-red-600'>
         <MdKeyboardArrowRight />
-        <p className='font-normal'>About Us</p>
+        <Link to={"/about"}   className='font-normal'>About Us</Link>
         </div>
         <div className='flex items-center ease-in duration-500 cursor-pointer hover:px-[0.6rem] hover:text-red-600'>
         <MdKeyboardArrowRight />
-        <p className='font-normal'>Contact Us</p>
+        <Link to={"/contact"}   className='font-normal'>Contact Us</Link>
         </div>
         <div className='flex items-center ease-in duration-500 cursor-pointer hover:px-[0.6rem] hover:text-red-600'>
         <MdKeyboardArrowRight />
-        <p className='font-normal'>Our Service</p>
+        <Link to={"/"}  className='font-normal'>Our Service</Link>
         </div>
         <div className='flex items-center ease-in duration-500 cursor-pointer hover:px-[0.6rem] hover:text-red-600'>
         <MdKeyboardArrowRight />
-        <p className='font-normal'>Support</p>
+        <Link  className='font-normal'>Support</Link>
         </div>
         </div>
       </div>

@@ -11,17 +11,17 @@ const useTeamData=[
     {
       "image":img2,
       "name":"Mr ATUL PANDEY",
-      "profession":"Founder Director,(Enterpreneur&Guest) Teaching Faculty-BHU"
+      "profession":"Founder & Director"
     },
     {
       "image":img6,
       "name":"Mr Dinesh kr. Maurya",
-      "profession":"Director& Mentor"
+      "profession":"Director & Mentor"
     },
     {
       "image":img1,
       "name":"DR.TARUN VERMA",
-      "profession":"Assistant Professor,IAS-BHU(Scientific Advisor in R&D)"
+      "profession":"Scientific Advisor"
     },
     {
         "image":img7,
