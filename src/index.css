@@ -12,3 +12,9 @@
   background-size: cover;
   background-color: #000;
 }
+body{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
