@@ -10,7 +10,7 @@ const OurService = () => {
     <div className='flex flex-col justify-center gap-[1rem] items-center pt-[1rem] p-[0.2rem] sm:pb-[3rem] xl:pb-[3rem]  pb-[3rem]'>
       <div>
         <p className='text-[#4BAF47] text-center text-[1.5rem] font-mono'>We Provide</p>
-        <h1 className='text-[2rem] text-center font-bold w-[20rem] sm:w-[22rem] md:w-[25rem]'>Best Natural Foods In The WorldHere</h1>
+        <h1 className='text-[2rem] text-center font-bold w-[20rem] sm:w-[22rem] md:w-[25rem] text-black'>Best Natural Foods In The WorldHere</h1>
       </div>
       <Review/>
     </div>
