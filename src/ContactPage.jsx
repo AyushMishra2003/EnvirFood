@@ -10,7 +10,7 @@ const ContactPage = () => {
         <div className='flex flex-col items-center gap-[4rem] '> 
             <h1 className='text-[2.5rem] font-mono text-center sm:text-[2.8rem] lg:text-[3.5rem] '>Let's have a talk</h1>
             {/* social link */}
-            <div className='flex flex-col gap-[0.8rem] lg:flex-row '>
+            <div className='flex flex-col gap-[0.8rem] lg:flex-row items-center justify-center '>
                 <div className='flex p-[0.6rem] px-[2.5rem] sm:px-[3rem] lg:px-[2rem] md:px-[4rem]  text-black bg-white items-center  gap-[0.8rem] rounded-[0.2rem]  cursor-pointer shadow-[3px_7px_3px_#596d91]'>
                   <FaPhone className='text-[#1D7F20] text-[1.5rem] lg:text-[0.9rem]' />
                   <p className='text-[1.2rem] font-semibold'>+91 1654327890</p>
@@ -51,7 +51,7 @@ const ContactPage = () => {
                 <p>Message</p>
                 <textarea placeholder='Enter Your Message' className=' w-[18rem] h-[4rem] border-none lg:w-[22rem] bg-[#0B0E11] xl:w-[29rem] resize-none'/>
               </div>
-              <button className='rounded-[3rem] px-[8rem] lg:px-[9rem] xl:px-[13rem] border border-black bg-[#F14A0E] text-white p-[0.5rem] hover:bg-white hover:text-black '>SUBMIT</button>
+              <button className='rounded-[3rem] px-[8rem] lg:px-[9rem] xl:px-[13rem]  bg-[#F14A0E] text-white p-[0.5rem] hover:bg-white hover:text-black '>SUBMIT</button>
             </form>
             {/* MAP */}
               <div className=''>
