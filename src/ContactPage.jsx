@@ -33,19 +33,19 @@ const ContactPage = () => {
                 </div>
             </div>
             {/* FORM */}
-            <form className='flex flex-col gap-[1rem] items-center justify-center'>
+            <form className='flex flex-col gap-[1rem] items-center justify-center '>
                 <p className='text-[1.5rem] text-center '>Pitch Us</p>
-              <div className='border-b border-white'>
-                <p>Name</p>
-                <input type="text" placeholder='Enter Your Name' className='pr-[7rem] border-none lg:pr-[10rem] xl:pr-[18rem] p-2 bg-[#0B0E11] outline-none ' />
+              <div className='flex flex-col gap-1 border-b border-white'>
+                <label htmlFor="">Name</label>
+                <input type="text" placeholder='Enter Your Name' className='pr-[7rem] border-none lg:pr-[10rem] xl:pr-[18rem]  bg-[#0B0E11] outline-none ' />
               </div>
-              <div className='border-b border-white'>
-                <p>Email Address</p>
-                <input type="email" placeholder='Enter Your Email Address' className='pr-[7rem] border-none lg:pr-[10rem] xl:pr-[18rem]  bg-[#0B0E11] p-2 outline-none' />
+              <div className='flex flex-col gap-1 border-b border-white'>
+                <label>Email Address</label>
+                <input type="email" placeholder='Enter Your Email Address' className='pr-[7rem] border-none lg:pr-[10rem] xl:pr-[18rem]  bg-[#0B0E11]  outline-none' />
               </div>
-              <div className='border-b border-white'>
-                <p>Message</p>
-                <textarea placeholder='Enter Your Message' className=' w-[100vw] h-[4rem] border-none lg:w-[22rem] bg-[#0B0E11] xl:w-[29rem] resize-none p-2 outline-none'/>
+              <div className='flex flex-col gap-1 border-b border-white '>
+                <label>Message</label>
+                <textarea placeholder='Enter Your Message' className='pr-[7rem]  w-[18rem] h-[4rem] border-none lg:w-[22rem] bg-[#0B0E11] xl:w-[29rem] resize-none  outline-none'/>
               </div>
               <button className='rounded-[3rem] px-[8rem] lg:px-[9rem] xl:px-[13rem]  bg-[#F14A0E] text-white p-[0.5rem] hover:bg-white hover:text-black '>SUBMIT</button>
             </form>

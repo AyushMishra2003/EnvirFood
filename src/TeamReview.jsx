@@ -16,7 +16,7 @@ const responsive = {
 const items = useTeamData.map((val, ind) => {
   return (
      <div key={ind + 1} className='flex gap-1 '>
-         <TeamCard image={val.image} name={val.name}/>
+         <TeamCard image={val.image} name={val.name} profession={val.profession}/>
      </div>
  )
 })

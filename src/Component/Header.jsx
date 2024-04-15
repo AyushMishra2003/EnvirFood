@@ -20,7 +20,10 @@ const Header = () => {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] shadow  w-[100vw] transition-[2s] flex flex-col items-center gap-[2.5rem]  absolute top-[-2rem] left-[-1rem]  bg-black ">
        <div className='flex justify-center items-center gap-[2rem] '> 
-         <img  className='w-[4rem]'  src={logo} alt="ecologo" />
+         <Link to={"/"}>
+            <img  className='w-[4rem] '  src={logo} alt="ecologo"  />
+         </Link>
+        
          <p className='sm:text-[1.6rem] text-[1.2rem] font-a'>Environmental Food Pvt Ltd</p>
         </div> 
         <div className='flex flex-col items-center justify-center '>
@@ -58,7 +61,7 @@ const Header = () => {
       </li>
       <Link to={"/Contact"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Contact Us</a></li></Link>
       <Link to={"/About"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>About Us</a></li></Link>
-      <Link to={"/"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Application</a></li></Link>
+      <Link to={"/coming"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Application</a></li></Link>
       {/* <Link to={"/"}><li className='text-[1rem]'><a>CRO LABS</a></li></Link> */}
     </ul>
   </div>
