@@ -2,10 +2,12 @@ import React from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CiSearch,CiUser } from "react-icons/ci";
 import { FaFacebook } from "react-icons/fa";
-import { CiTwitter } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
+
 import { CiInstagram } from "react-icons/ci";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 import { FaArrowCircleDown } from "react-icons/fa";
+import { PiInstagramLogoFill } from "react-icons/pi";
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/eflogo1.png'
 const Header = () => {
@@ -21,41 +23,32 @@ const Header = () => {
          <img  className='w-[4rem]'  src={logo} alt="ecologo" />
          <p className='sm:text-[1.6rem] text-[1.2rem] font-a'>Environmental Food Pvt Ltd</p>
         </div> 
-        <div className='flex flex-col items-center justify-center gap-3 '>
-        <Link to="/"><li className='border-t w-[100vw] items-center'><a className='text-[1.2rem]  border-b-1 '>Home</a></li></Link>
-        {/* <li className='border-t border-white w-[100vw] items-center'>
-        <details className='w-[15rem] flex flex-col items-center border-t border-white'>
-          <summary className='text-[1rem] text-[#08A05E] p-[0.2rem] px-[2rem] '>What We Do</summary>
-          <ul className="flex flex-col p-2 ">
-            <li><a className='text-[1.2rem] text-[#08A05E]'>Food Development</a></li>
-            <li><a className='text-[1.2rem] text-[#08A05E]'>Food Manufacturing</a></li>
-            <li><a className='text-[1.2rem] text-[#08A05E]'>Sea Food Development</a></li>
-            <li><a className='text-[1.2rem] text-[#08A05E]'>Nutrition Intelligence</a></li>
-          </ul>
-        </details>
-      </li> */}
-      <Link to={"/Contact"}><li className='text-[1.2rem] border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Contact Us</a></li></Link>
-      <Link to={"/About"}><li className='text-[1.2rem] border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>About Us</a></li></Link>
-      <Link to={"/"}><li className='text-[1rem] border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Application</a></li></Link>
+        <div className='flex flex-col items-center justify-center '>
+        <Link to="/"><li className='border-t w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem] '>Home</a></li></Link>
+      <Link to={"/Contact"}><li className='text-[1.2rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Contact Us</a></li></Link>
+      <Link to={"/About"}><li className='text-[1.2rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>About Us</a></li></Link>
+      <Link to={"/"}><li className='text-[1rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Application</a></li></Link>
         {/* <li className='border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Application</a></li> */}
-        <li className='border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Industry</a></li>
-        <li className='border-t  border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Insight</a></li>
+        <li className='border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Industry</a></li>
+        <li className='border-y  border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Insight</a></li>
         </div>
       </ul>
     </div>
        <div className="flex items-center justify-center gap-3 p-2 rounded-md">
-         <img  className='w-[4rem]'  src={logo} alt="ecologo" />
+        <Link to={"/"}>
+          <img  className='w-[4rem]'  src={logo} alt="ecologo" />
+        </Link>
         <p className='text-[1.2rem] hidden lg:block font-curve font-bold' >Environmental Food Pvt Ltd</p>
        </div>
   </div>
 
   <div className="hidden navbar-center lg:flex ">
     <ul className="px-1 menu menu-horizontal">
-    <Link to={"/"}><li><a className='text-[1rem] '>Home</a></li></Link>
+    <Link to={"/"}><li  className='hover:bg-[#1a1a1a7c]'><a className='text-[1rem] '>Home</a></li></Link>
       <li>
         <details>
-          <summary className='text-[1rem] text-[#08A05E]'>What We Do</summary>
-          <ul className="p-2  w-[20rem] flex flex-col items-center justify-center bg-[#d1d1d1]">
+          <summary className='text-[1rem] text-[#08A05E] hover:bg-[#1a1a1a7c]'>What We Do</summary>
+          <ul className="p-2  w-[20rem] flex flex-col items-start bg-black justify-center">
             <li ><a className='text-[1.2rem] text-[#08A05E]'>Food Development</a></li>
             <li><a className='text-[1.2rem] text-[#08A05E]'>Food Manufacturing</a></li>
             <li><a className='text-[1.2rem] text-[#08A05E]'>Sea Food Development</a></li>
@@ -63,18 +56,18 @@ const Header = () => {
           </ul>
         </details>
       </li>
-      <Link to={"/Contact"}><li className='text-[1rem]'><a>Contact Us</a></li></Link>
-      <Link to={"/About"}><li className='text-[1rem]'><a>About Us</a></li></Link>
-      <Link to={"/"}><li className='text-[1rem]'><a>Application</a></li></Link>
+      <Link to={"/Contact"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Contact Us</a></li></Link>
+      <Link to={"/About"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>About Us</a></li></Link>
+      <Link to={"/"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Application</a></li></Link>
       {/* <Link to={"/"}><li className='text-[1rem]'><a>CRO LABS</a></li></Link> */}
     </ul>
   </div>
   {/* ICONS -HEADER */}
-  <div className="navbar-end  flex gap-[0.3rem]">
+  <div className="navbar-end  flex gap-[0.4rem]">
     {/* <a className="btn border border-black p-[0.5rem] px-[0.5rem]">Button</a> */}
-    <Link to={"https://www.facebook.com/envirfoods/"}  target='blank' className='p-[0.3rem] rounded-full bg-[#FFFFFF] hover:bg-[#FF1700] ease-in duration-300'><FaFacebook className='text-[1.5rem]' /></Link>
-    <Link className='p-[0.3rem] rounded-full bg-[#FFFFFF] hover:bg-[#FF1700] ease-in duration-300'><CiInstagram className='text-[1.5rem] text-[#A9379D]'/></Link>
-    <Link className='p-[0.3rem] rounded-full bg-[#FFFFFF] hover:bg-[#FF1700] ease-in duration-300'><CiTwitter className='text-[1.5rem] text-[#1C96E8]' /></Link>
+    <Link to={"https://www.facebook.com/envirfoods/"}  target='blank' className='rounded-full size-[2.2rem] group bg-[#FFFFFF] hover:bg-[#0866ff]  ease-in duration-300 flex items-center justify-center'><FaFacebook className='text-[1.4rem] group-hover:text-white text-[#0866ff]' /></Link>
+    <Link className='size-[2.2rem]  rounded-full group bg-[#FFFFFF] hover:bg-[#c435a7] ease-in duration-300 flex items-center justify-center'><PiInstagramLogoFill className='text-[1.4rem] text-[#c435a7] group-hover:text-white'/></Link>
+    <Link className='size-[2.2rem] rounded-full bg-[#FFFFFF] group hover:bg-black ease-in duration-300 flex items-center justify-center'><FaXTwitter className='text-[1.4rem] text-black group-hover:text-white' /></Link>
   </div>
 </div>
   )

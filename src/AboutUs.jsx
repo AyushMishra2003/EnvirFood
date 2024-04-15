@@ -14,19 +14,19 @@ const AboutUs = () => {
         <p className='text-[2.2rem]  font-bold sm:text-[2.5rem] text-black '>Environmental Food</p>
       </div>
       <div className=' flex flex-col gap-[1.2rem] '>
-      <p className='text-[1.2rem] font-bold  w-[18rem] msm:w-[22rem] sm:w-[30rem]  lg:w-[30rem] md:w-[37rem] text-black'>Welcome to the Environmental Food Research Center, where we are dedicated to pioneering sustainable solutions for the food industry.  we understand the critical intersection between food production, environmental impact, and human health. Our mission is to conduct innovative research, foster collaboration, and provide actionable insights to promote a healthier, more sustainable future for all.</p>
+      <p className='text-[1.2rem] font-bold  w-[18rem] msm:w-[22rem] sm:w-[30rem]  lg:w-[32rem] md:w-[37rem] text-black'>Welcome to the <span className='text-[#4BAF47]'>Environmental Food Research Center</span> where we are dedicated to pioneering sustainable solutions for the food industry we understand the critical intersection between food production, environmental impact, and human health. Our mission is to conduct innovative research, foster collaboration, and provide actionable insights to promote a healthier, more sustainable future for all.</p>
       <div >
         <div className='flex items-center gap-[1rem] text-black'>
            <p className=' border-none rounded-[50%] p-[0.1rem] bg-[#EEC044]'><TiTick className='text-[#ffffff]  text-[1.3rem]'/></p>
-           <p className='text-[1.2rem] font-semibold'>Nutrition and Health:</p>
+           <p className='text-[1.2rem] font-semibold'>Nutrition and Health</p>
         </div>
         <div className='flex items-center gap-[1rem] '>
-          <p className=' border-none rounded-[50%] p-[0.1rem] bg-[#c8c7c5]'><TiTick className='text-[#ffffff] text-[1.3rem]'/></p>
+          <p className=' border-none rounded-[50%] p-[0.1rem] bg-[#eec044]'><TiTick className='text-[#ffffff] text-[1.3rem]'/></p>
            <p className='text-[1.2rem] font-semibold'>Food Waste Reduction</p>
         </div>
         <div className='flex items-center gap-[1rem]'>
            <p className=' border-none rounded-[50%] p-[0.1rem] bg-[#EEC044]'><TiTick className='text-[#ffffff] text-[1.3rem]'/></p>
-           <p className='text-[1.2rem] font-semibold'>Sustainable Agriculture.</p>
+           <p className='text-[1.2rem] font-semibold'>Sustainable Agriculture</p>
         </div>
       </div>  
       <Link to={"/about"}>

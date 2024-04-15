@@ -11,6 +11,8 @@ import Subscribe from './Subscribe'
 import Review from './Review'
 import WhatSay from './WhatSay'
 import RandD from './Component/RandD'
+import ClientPage from './ClientPage'
+
 const Home = () => {
   useEffect(()=>{
     window.scrollTo(0, 0);
@@ -22,9 +24,8 @@ const Home = () => {
          <AboutUs/>
         <OurService/> 
         <Team/>
+        <ClientPage/>
         <LatestResearch/> 
-        {/* <Subscribe/> */}
-        {/* <Team/> */}
     </div>
   )
 }

@@ -7,9 +7,9 @@ import protoype from '../assets/img/prototype.png'
 import marketinglogo from '../assets/img/marketinglogo.png'
 const About = () => {
   return (
-    <div className='flex flex-col items-center hero-img w-[100%] h-fit gap-[2.5rem]'>
+    <div className='flex flex-col items-center hero-img w-[100%] h-fit md:h-[95vh]  gap-[2.5rem] '>
      
-      <div className=' gap-[2rem] py-[2rem] xl:py-[5rem] lg:py-[4rem] flex flex-col items-center '>
+      <div className=' gap-[2rem] py-[2rem]  lg:pt-[8rem] flex flex-col items-center'>
         {/* <p className=' text-white text-[2.5rem]  ont-mono'>Be Natural</p> */}
          <div className='flex flex-col items-center justify-center font-serif  w-[19rem] msm:w-[22rem] sm:w-[26rem] lg:w-[35rem] gap-3 xl:w-[40rem]'>
             <p className='text-white xl:text-[2.3rem] font-curve text-[1.1rem] lg:text-[1.9rem] sm:text-[1.5rem] md:text-[1.5rem]'>Innovate your food product with us !</p>

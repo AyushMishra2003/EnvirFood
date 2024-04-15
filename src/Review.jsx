@@ -1,69 +1,43 @@
 import React from 'react'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import useReviewData from './Hooks/ReviewData';
-import ReviewCard from './Component/ReviewCard';
 import OurProduct from './Hooks/OurProduct';
 import ProductCard from './Component/ProductCard';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
+
+
+const responsive = {
+  0: { items: 1},
+  640: { items: 1 },
+  768: { items: 2 },
+  1024: { items: 2 },
+};
+
+
+const items = OurProduct.map((val, ind) => {
+   return (
+      <div key={ind + 1} className='flex gap-2'>
+          <ProductCard image={val.image} text={val.text} To={val.to}/>
+      </div>
+  )
+})
+
 const Review = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        autoplaySpeed:3000,
-        autoplay:true,
-        centerMode:true,
-        pauseOnDotsHover:true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        // adaptiveHeight:true,
-        // centerPadding:'100px',
-        responsive: [
-          {
-            breakpoint: 1075,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              centerMode:true,
-              // dots: true
-            }
-          },
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-              // dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite:true
-              // initialSlide: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite:true
-            }
-          },
-    ]
-   };
   return (
-    <div className='  w-[100vw] flex flex-col items-center justify-center gap-[3rem] '>
-       <Slider {...settings} className='flex items-center justify-center  w-[50rem]  sm:w-[70rem]  p-[2rem]'>
-          {OurProduct.map((val,ind)=><ProductCard image={val.image} text={val.text} To={val.to}  key={ind+1}/>)}
-       </Slider>
-    </div>
+    <div className='w-[20rem]  sm:w-[30rem] md:w-[40rem] lg:w-[65rem] flex flex-col items-center gap-2 '>
+    <AliceCarousel
+        mouseTracking
+        autoPlayInterval={1200}
+        animationDuration={1200}
+        infinite
+        disableButtonsControls
+        disableDotsControls
+        items={items}
+        responsive={responsive}
+        controlsStrategy="alternate"
+        autoPlay
+    />
+</div>
   )
 }
 
