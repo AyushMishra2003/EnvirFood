@@ -24,7 +24,7 @@ const items = useTeamData.map((val, ind) => {
 
 const Review = () => {
   return(
-    <div className='w-[18rem]  sm:w-[39rem] md:w-[50rem] lg:w-[60rem] flex gap-1 '>
+    <div className='w-[18rem]  sm:w-[32rem] md:w-[46rem] lg:w-[63rem] flex gap-1 '>
     <AliceCarousel
         mouseTracking
         autoPlayInterval={1200}

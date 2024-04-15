@@ -8,7 +8,7 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 
 const responsive = {
   0: { items: 1},
-  640: { items: 1 },
+  640: { items: 2 },
   768: { items: 2 },
   1024: { items: 2 },
 };
@@ -24,7 +24,7 @@ const items = OurProduct.map((val, ind) => {
 
 const Review = () => {
   return (
-    <div className='w-[20rem]  sm:w-[30rem] md:w-[40rem] lg:w-[65rem] flex flex-col items-center gap-2 '>
+    <div className='w-[17rem]  sm:w-[39rem] md:w-[40rem] lg:w-[55rem] flex flex-col items-center justify-center  '>
     <AliceCarousel
         mouseTracking
         autoPlayInterval={1200}
