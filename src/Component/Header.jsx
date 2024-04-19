@@ -23,8 +23,9 @@ const Header = () => {
          <Link to={"/"}>
             <img  className='w-[4rem] '  src={logo} alt="ecologo"  />
          </Link>
-        
-         <p className='sm:text-[1.6rem] text-[1.2rem] font-a'>Environmental Food Pvt Ltd</p>
+        <Link>
+            <p className='sm:text-[1.6rem] text-[1.2rem] font-a'>Environmental Food Pvt Ltd</p>
+        </Link>
         </div> 
         <div className='flex flex-col items-center justify-center '>
         <Link to="/"><li className='border-t w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem] '>Home</a></li></Link>
@@ -41,7 +42,9 @@ const Header = () => {
         <Link to={"/"}>
           <img  className='w-[4rem]'  src={logo} alt="ecologo" />
         </Link>
-        <p className='text-[1.2rem] hidden lg:block font-curve font-bold' >Environmental Food Pvt Ltd</p>
+        <Link to={"/"}> 
+             <p className='text-[1.2rem] hidden lg:block font-curve font-bold' >Environmental Food Pvt Ltd</p>
+        </Link>
        </div>
   </div>
 
@@ -61,8 +64,6 @@ const Header = () => {
       </li>
       <Link to={"/Contact"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Contact Us</a></li></Link>
       <Link to={"/About"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>About Us</a></li></Link>
-      <Link to={"/coming"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Application</a></li></Link>
-      {/* <Link to={"/"}><li className='text-[1rem]'><a>CRO LABS</a></li></Link> */}
     </ul>
   </div>
   {/* ICONS -HEADER */}

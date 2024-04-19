@@ -39,15 +39,15 @@ const Footer = () => {
         </div>
         <div className='flex gap-[0.5rem] items-center'>
         <CiPhone />
-        <p>+91 0000000000</p>
+        <p>+91 6387404696</p>
         </div>
         <div className='flex gap-[0.5rem] items-center'>
         <MdEmail />
-        <p>info@gmail.com</p>
+        <p>@envirfoods.in</p>
         </div>
       </div>
       </div>
-      {/* QUICK LINKS */}
+      
       <div className='flex flex-col gap-[3rem] '>
         <h1 className='font-bold text-[1.5rem]'>Quick Links</h1>
         <div className='flex flex-col gap-1 font-thin'>
