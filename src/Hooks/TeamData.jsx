@@ -12,7 +12,7 @@ const useTeamData=[
     {
       "image":img2,
       "name":"Mr ATUL PANDEY",
-      "profession":"Founder  Director"
+      "profession":"Founder & Director"
     },
     {
       "image":img6,
@@ -27,7 +27,7 @@ const useTeamData=[
     {
         "image":img7,
         "name":"Mr Rajesh Tiwari",
-        "profession":"Director International Trade"
+        "profession":"Director in International Trade"
     },
     {
         "image":img5,
@@ -42,7 +42,7 @@ const useTeamData=[
     {
       "image":img8,
       "name":"Mr.Ravi Pratap Singh",
-      "profession":"Director Distribution & Supply"
+      "profession":"Director in  Distribution & Supply"
     }
 ]
 export default useTeamData

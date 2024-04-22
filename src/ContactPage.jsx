@@ -20,10 +20,10 @@ const ContactPage = () => {
                   <MdEmail className='text-[#EA4335]  text-[1.5rem] lg:text-[0.9rem]' />
                   <p className='text-[1.2rem] font-semibold'>@envirfoods.in</p>
                 </Link>
-                <div className='flex p-[0.6rem] px-[2.5rem] sm:px-[3rem] md:px-[4rem] lg:px-[1rem] text-black bg-white items-center  gap-[0.8rem] rounded-[0.2rem] cursor-pointer shadow-[5px_10px_5px_#596d91]'>
+                <Link to={"https://www.instagram.com/envirfoods?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} className='flex p-[0.6rem] px-[2.5rem] sm:px-[3rem] md:px-[4rem] lg:px-[1rem] text-black bg-white items-center  gap-[0.8rem] rounded-[0.2rem] cursor-pointer shadow-[5px_10px_5px_#596d91]'>
                    <CiInstagram className='text-[#F500CD] text-[1.5rem] lg:text-[0.9rem]' />
                   <p className='text-[1.2rem] font-semibold'>envirfoods</p>
-                </div>
+                </Link>
                 <div className='flex p-[0.6rem] px-[2.5rem] sm:px-[3rem] md:px-[4rem] lg:px-[1rem] text-black bg-white items-center  gap-[0.8rem] rounded-[0.2rem] cursor-pointer shadow-[5px_10px_5px_#596d91]'>
                   <FaLinkedin className='text-[#3766FF] text-[1.5rem] lg:text-[0.9rem]'/>
                   <p className='text-[1.2rem] font-semibold'>EnvirFoods</p>

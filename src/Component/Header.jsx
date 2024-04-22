@@ -80,7 +80,7 @@ const Header = () => {
     {/* <a className="btn border border-black p-[0.5rem] px-[0.5rem]">Button</a> */}
     {/* <button cla>Log in</button> */}
     <Link to={"https://www.facebook.com/envirfoods/"}  target='blank' className='rounded-full size-[2.2rem] group bg-[#FFFFFF] hover:bg-[#0866ff]  ease-in duration-300 flex items-center justify-center'><FaFacebook className='text-[1.4rem] group-hover:text-white text-[#0866ff]' /></Link>
-    <Link className='size-[2.2rem]  rounded-full group bg-[#FFFFFF] hover:bg-[#c435a7] ease-in duration-300 flex items-center justify-center'><PiInstagramLogoFill className='text-[1.4rem] text-[#c435a7] group-hover:text-white'/></Link>
+    <Link to={"https://www.instagram.com/envirfoods?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} target='blank'  className='size-[2.2rem]  rounded-full group bg-[#FFFFFF] hover:bg-[#c435a7] ease-in duration-300 flex items-center justify-center'><PiInstagramLogoFill className='text-[1.4rem] text-[#c435a7] group-hover:text-white'/></Link>
     <Link className='size-[2.2rem] rounded-full bg-[#FFFFFF] group hover:bg-black ease-in duration-300 flex items-center justify-center'><FaXTwitter className='text-[1.4rem] text-black group-hover:text-white' /></Link>
   </div>
 </div>

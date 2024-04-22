@@ -22,8 +22,8 @@ const Footer = () => {
         {/* <p className='font-light w-[15rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, commodi.</p> */}
         <div className='flex gap-[0.5rem]  items-center '>
         <Link className='w-fit rounded-[100%] '><CiTwitter className='text-[1.5rem] rounded-[100%] hover:text-[#FF1700]'/></Link>
-        <Link className='w-fit   rounded-[100%]  '><CiFacebook className='text-[1.5rem] rounded-[100%] hover:text-[#FF1700]'/></Link>
-        <Link className='w-fit rounded-[100%]'><FaYoutube className='text-[1.5rem] rounded-[100%] hover:text-[#FF1700]'/></Link>
+        <Link to={"https://www.facebook.com/envirfoods/"} target='blank'   className='w-fit   rounded-[100%]  '><CiFacebook className='text-[1.5rem] rounded-[100%] hover:text-[#FF1700]'/></Link>
+        <Link to={"https://youtube.com/@envirfoods?si=fNeRQpaO4NPJJgD2"} target='blank' className='w-fit rounded-[100%]'><FaYoutube className='text-[1.5rem] rounded-[100%] hover:text-[#FF1700]'/></Link>
         <Link className='w-fit rounded-[100%]'><CiLinkedin className='text-[1.5rem] rounded-[100%] hover:text-[#FF1700]'/></Link>
         </div>
         </div>
