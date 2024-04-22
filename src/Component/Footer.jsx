@@ -61,11 +61,11 @@ const Footer = () => {
         </div>
         <div className='flex items-center ease-in duration-500 cursor-pointer hover:px-[0.6rem] hover:text-red-600'>
         <MdKeyboardArrowRight />
-        <Link to={"/"}  className='font-normal'>Our Service</Link>
+        <Link to={"/coming"}  className='font-normal'>Our Service</Link>
         </div>
         <div className='flex items-center ease-in duration-500 cursor-pointer hover:px-[0.6rem] hover:text-red-600'>
         <MdKeyboardArrowRight />
-        <Link  className='font-normal'>Support</Link>
+        <Link to={"/coming"}  className='font-normal'>Support</Link>
         </div>
         </div>
       </div>

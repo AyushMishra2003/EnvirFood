@@ -24,7 +24,7 @@ const Header = () => {
             <img  className='w-[4rem] '  src={logo} alt="ecologo"  />
          </Link>
         <Link>
-            <p className='sm:text-[1.6rem] text-[1.2rem] font-a'>Environmental Food Pvt Ltd</p>
+            <p className='sm:text-[1.3rem] text-[1.2rem] font-a'>Environmental Food Pvt Ltd</p>
         </Link>
         </div> 
         <div className='flex flex-col items-center justify-center '>
@@ -54,11 +54,20 @@ const Header = () => {
       <li>
         <details>
           <summary className='text-[1rem] text-[#08A05E] hover:bg-[#1a1a1a7c]'>What We Do</summary>
-          <ul className="p-2  w-[20rem] flex flex-col items-start bg-black justify-center">
-            <li ><a className='text-[1.2rem] text-[#08A05E]'>Food Development</a></li>
-            <li><a className='text-[1.2rem] text-[#08A05E]'>Food Manufacturing</a></li>
-            <li><a className='text-[1.2rem] text-[#08A05E]'>Sea Food Development</a></li>
-            <li><a className='text-[1.2rem] text-[#08A05E]'>Nutrition Intelligence</a></li>
+          <ul className="p-2  w-[20rem] flex flex-col items-start bg-black justify-center ">
+           <Link to={"/coming"}>
+             <li ><a className='text-[1.2rem] text-[#08A05E]'>Food Development</a></li>
+           </Link> 
+           <Link to={"/coming"}>
+             <li><a className='text-[1.2rem] text-[#08A05E]'>Food Manufacturing</a></li>
+           </Link>
+           <Link to={"/coming"}>
+             <li><a className='text-[1.2rem] text-[#08A05E]'>Sea Food Development</a></li>
+           </Link >
+            <Link to={"/coming"}>
+              <li><a className='text-[1.2rem] text-[#08A05E]'>Nutrition Intelligence</a></li>
+            </Link>
+       
           </ul>
         </details>
       </li>
@@ -69,6 +78,7 @@ const Header = () => {
   {/* ICONS -HEADER */}
   <div className="navbar-end  flex gap-[0.4rem]">
     {/* <a className="btn border border-black p-[0.5rem] px-[0.5rem]">Button</a> */}
+    {/* <button cla>Log in</button> */}
     <Link to={"https://www.facebook.com/envirfoods/"}  target='blank' className='rounded-full size-[2.2rem] group bg-[#FFFFFF] hover:bg-[#0866ff]  ease-in duration-300 flex items-center justify-center'><FaFacebook className='text-[1.4rem] group-hover:text-white text-[#0866ff]' /></Link>
     <Link className='size-[2.2rem]  rounded-full group bg-[#FFFFFF] hover:bg-[#c435a7] ease-in duration-300 flex items-center justify-center'><PiInstagramLogoFill className='text-[1.4rem] text-[#c435a7] group-hover:text-white'/></Link>
     <Link className='size-[2.2rem] rounded-full bg-[#FFFFFF] group hover:bg-black ease-in duration-300 flex items-center justify-center'><FaXTwitter className='text-[1.4rem] text-black group-hover:text-white' /></Link>

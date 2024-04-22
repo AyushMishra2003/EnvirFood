@@ -6,12 +6,13 @@ import img3 from '../assets/img/team3.jpeg'
 import img4 from '../assets/img/team4.jpeg'
 import img6 from '../assets/img/team23.jpeg'
 import img7 from '../assets/img/team1.jpeg'
+import img8 from '../assets/img/teamRavi.jpg'
 
 const useTeamData=[
     {
       "image":img2,
       "name":"Mr ATUL PANDEY",
-      "profession":"Founder & Director"
+      "profession":"Founder  Director"
     },
     {
       "image":img6,
@@ -26,17 +27,22 @@ const useTeamData=[
     {
         "image":img7,
         "name":"Mr Rajesh Tiwari",
-        "profession":"Director & Mentor"
+        "profession":"Director International Trade"
     },
     {
         "image":img5,
-        "name":"Mr PRATIK SINGH",
-        "profession":"Director & Project Manager"
+        "name":"Mr KUWAR PRATIK SINGH",
+        "profession":"Project Manager"
     },
     {
        "image":img4,
       "name":"Miss TANISHA GUPTA",
-      "profession":"Director & Project Manager"
+      "profession":"Project Manager"
+    },
+    {
+      "image":img8,
+      "name":"Mr.Ravi Pratap Singh",
+      "profession":"Director Distribution & Supply"
     }
 ]
 export default useTeamData

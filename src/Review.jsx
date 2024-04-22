@@ -31,7 +31,7 @@ const Review = () => {
         animationDuration={1200}
         infinite
         disableButtonsControls
-        disableDotsControls
+        // disableDotsControls
         items={items}
         responsive={responsive}
         controlsStrategy="alternate"

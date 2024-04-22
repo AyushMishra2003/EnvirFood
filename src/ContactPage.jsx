@@ -4,6 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { CiInstagram } from "react-icons/ci";
 import { FaLinkedin } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 const ContactPage = () => {
   return (
     <div className='bg-[#0B0E11] text-white  w-[100vw] flex flex-col  items-center justify-center pt-[5rem] pb-[0.6rem] '>
@@ -13,23 +14,23 @@ const ContactPage = () => {
             <div className='flex flex-col gap-[0.8rem] lg:flex-row items-center justify-center '>
                 <div className='flex p-[0.6rem] px-[2.5rem] sm:px-[3rem] lg:px-[2rem] md:px-[4rem]  text-black bg-white items-center  gap-[0.8rem] rounded-[0.2rem]  cursor-pointer shadow-[3px_7px_3px_#596d91]'>
                   <FaPhone className='text-[#1D7F20] text-[1.5rem] lg:text-[0.9rem]' />
-                  <p className='text-[1.2rem] font-semibold'>+91 1654327890</p>
+                  <p className='text-[1.2rem] font-semibold'>+91 6387404696</p>
                 </div>
-                <div className='flex p-[0.6rem] px-[2.5rem] sm:px-[3rem] md:px-[4rem] lg:px-[1rem] text-black bg-white items-center  gap-[0.8rem] rounded-[0.2rem] cursor-pointer shadow-[5px_10px_5px_#596d91]'>
+                <Link to={"https://www.instagram.com/envirfoods?igsh=dXdqNzJzZjB5bzln"} className='flex p-[0.6rem] px-[2.5rem] sm:px-[3rem] md:px-[4rem] lg:px-[1rem] text-black bg-white items-center  gap-[0.8rem] rounded-[0.2rem] cursor-pointer shadow-[5px_10px_5px_#596d91]'>
                   <MdEmail className='text-[#EA4335]  text-[1.5rem] lg:text-[0.9rem]' />
-                  <p className='text-[1.2rem] font-semibold'>info@gmail.com</p>
-                </div>
+                  <p className='text-[1.2rem] font-semibold'>@envirfoods.in</p>
+                </Link>
                 <div className='flex p-[0.6rem] px-[2.5rem] sm:px-[3rem] md:px-[4rem] lg:px-[1rem] text-black bg-white items-center  gap-[0.8rem] rounded-[0.2rem] cursor-pointer shadow-[5px_10px_5px_#596d91]'>
                    <CiInstagram className='text-[#F500CD] text-[1.5rem] lg:text-[0.9rem]' />
-                  <p className='text-[1.2rem] font-semibold'>Insta Username</p>
+                  <p className='text-[1.2rem] font-semibold'>envirfoods</p>
                 </div>
                 <div className='flex p-[0.6rem] px-[2.5rem] sm:px-[3rem] md:px-[4rem] lg:px-[1rem] text-black bg-white items-center  gap-[0.8rem] rounded-[0.2rem] cursor-pointer shadow-[5px_10px_5px_#596d91]'>
                   <FaLinkedin className='text-[#3766FF] text-[1.5rem] lg:text-[0.9rem]'/>
-                  <p className='text-[1.2rem] font-semibold'>LinkedinName</p>
+                  <p className='text-[1.2rem] font-semibold'>EnvirFoods</p>
                 </div>
                 <div className='flex p-[0.6rem] px-[2.5rem] sm:px-[3rem] md:px-[4rem] lg:px-[1rem] text-black bg-white items-center  gap-[0.8rem] rounded-[0.2rem] cursor-pointer  shadow-[5px_10px_5px_#596d91]'>
                   <CiTwitter className='text-[#1C96E8] text-[1.5rem] lg:text-[0.9rem] xl:text-[1.2rem]' />
-                  <p className='text-[1.2rem] font-semibold'>TwitterName</p>
+                  <p className='text-[1.2rem] font-semibold'>envirFoods</p>
                 </div>
             </div>
             {/* FORM */}
