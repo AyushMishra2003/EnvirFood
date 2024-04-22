@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     screens: {
+      'vvsmall':'350px',
+      'vsmall':'400px',
+      'small':'450px',
       'msm':'500px',
       'sm': '640px',
       'md':'768px',
