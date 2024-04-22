@@ -43,7 +43,7 @@ const Header = () => {
           <img  className='w-[4rem]'  src={logo} alt="ecologo" />
         </Link>
         <Link to={"/"}> 
-             <p className='text-[1.2rem] hidden lg:block font-curve font-bold' >Environmental Food Pvt Ltd</p>
+             <p className='text-[0.9rem] hidden lg:block font-curve font-bold' >Environmental Food Pvt Ltd</p>
         </Link>
        </div>
   </div>
