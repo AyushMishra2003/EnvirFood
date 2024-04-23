@@ -9,7 +9,7 @@ const TeamCard = ({image,name,profession}) => {
        <img src={image} alt="" className='object-cover w-full h-full' />
        <div className='bg-[#d1d1cc] flex flex-col  w-full absolute bottom-0 items-center '>
          <p className='text-[1rem] font-bold text-black text-center  w-fit' >{name}</p>
-         <p className='text-[#f00717] text-[1rem] font-semibold  text-center w-fit font-bold'>{profession}</p>
+         <p className='text-[#f00717] text-[1rem] font-semibold  text-center w-fit '>{profession}</p>
        </div>
     </div>
   )

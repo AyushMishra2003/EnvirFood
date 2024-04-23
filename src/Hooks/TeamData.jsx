@@ -12,7 +12,7 @@ const useTeamData=[
     {
       "image":img2,
       "name":"Mr ATUL PANDEY",
-      "profession":"Founder & Director"
+      "profession":"Founder Director"
     },
     {
       "image":img6,

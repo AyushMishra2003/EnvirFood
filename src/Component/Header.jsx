@@ -54,20 +54,11 @@ const Header = () => {
       <li>
         <details>
           <summary className='text-[1rem] text-[#08A05E] hover:bg-[#1a1a1a7c]'>What We Do</summary>
-          <ul className="p-2  w-[20rem] flex flex-col items-start bg-black justify-center ">
-           <Link to={"/coming"}>
-             <li ><a className='text-[1.2rem] text-[#08A05E]'>Food Development</a></li>
-           </Link> 
-           <Link to={"/coming"}>
+          <ul className="w-[20rem] flex flex-col items-start bg-black justify-center   text-black z-10">
+             <li ><a className='text-[1.2rem] text-[black]'>Food Development</a></li>
              <li><a className='text-[1.2rem] text-[#08A05E]'>Food Manufacturing</a></li>
-           </Link>
-           <Link to={"/coming"}>
              <li><a className='text-[1.2rem] text-[#08A05E]'>Sea Food Development</a></li>
-           </Link >
-            <Link to={"/coming"}>
               <li><a className='text-[1.2rem] text-[#08A05E]'>Nutrition Intelligence</a></li>
-            </Link>
-       
           </ul>
         </details>
       </li>

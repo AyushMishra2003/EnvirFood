@@ -8,7 +8,7 @@ import marketinglogo from '../assets/img/marketinglogo.png'
 import bgcVideo from '../assets/img/bgcVideo.mp4'
 const About = () => {
   return (
-    <div className='relative flex flex-col w-full overflow-hidden sm:items-center sm:justify-center h-fit z-100 '>
+    <div className='relative flex flex-col w-full overflow-hidden sm:items-center sm:justify-center h-fit'>
       
       <video src={bgcVideo} className='min-w-[100vw] absolute top-0 left-0  min-h-fit' loop autoPlay playsInline muted></video>
       <div className=' msm:gap-[2rem] gap-1  flex flex-col items-center  text-black z-50 pt-8 msm:pb-[3rem] small:pb-[4rem]  small:flex-col vsmall:pb-[3rem] vvsmall:pb-[1.5rem] lg:pb-[9rem]'>
