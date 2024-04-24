@@ -44,6 +44,10 @@ const ContactPage = () => {
                 <label>Email Address</label>
                 <input type="email" placeholder='Enter Your Email Address' className='pr-[7rem] border-none lg:pr-[10rem] xl:pr-[18rem]  bg-[#0B0E11]  outline-none' />
               </div>
+              <div className='flex flex-col gap-1 border-b border-white'>
+                <label>Phone Number</label>
+                <input type="phoneNumber" placeholder='Enter Your Mobile' className='pr-[7rem] border-none lg:pr-[10rem] xl:pr-[18rem]  bg-[#0B0E11]  outline-none' />
+              </div>
               <div className='flex flex-col gap-1 border-b border-white '>
                 <label>Message</label>
                 <textarea placeholder='Enter Your Message' className='pr-[7rem]  w-[18rem] h-[4rem] border-none lg:w-[22rem] bg-[#0B0E11] xl:w-[29rem] resize-none  outline-none'/>

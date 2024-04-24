@@ -43,7 +43,7 @@ const Header = () => {
           <img  className='w-[4rem]'  src={logo} alt="ecologo" />
         </Link>
         <Link to={"/"}> 
-             <p className='text-[0.9rem] hidden lg:block font-curve font-bold' >Environmental Food Pvt Ltd</p>
+             <p className='text-[1.2rem] hidden lg:block font-curve font-bold' >Environmental Food Pvt Ltd</p>
         </Link>
        </div>
   </div>
@@ -51,7 +51,7 @@ const Header = () => {
   <div className="hidden navbar-center lg:flex ">
     <ul className="px-1 menu menu-horizontal">
     <Link to={"/"}><li  className='hover:bg-[#1a1a1a7c]'><a className='text-[1rem] '>Home</a></li></Link>
-      <li>
+      {/* <li>
         <details>
           <summary className='text-[1rem] text-[#08A05E] hover:bg-[#1a1a1a7c]'>What We Do</summary>
           <ul className="w-[20rem] flex flex-col items-start bg-black justify-center   text-black z-10">
@@ -61,7 +61,7 @@ const Header = () => {
               <li><a className='text-[1.2rem] text-[#08A05E]'>Nutrition Intelligence</a></li>
           </ul>
         </details>
-      </li>
+      </li> */}
       <Link to={"/Contact"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Contact Us</a></li></Link>
       <Link to={"/About"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>About Us</a></li></Link>
     </ul>

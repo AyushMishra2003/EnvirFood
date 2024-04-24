@@ -5,36 +5,38 @@ import wine from '../assets/img/wine.jpg'
 import colors from '../assets/img/plant based colours.jpg'
 import perfume from '../assets/img/plant based perfumes.jpg'
 import microgreen from '../assets/img/microgreen.jpeg'
+import kesar from '../assets/img/labkesar.jpg'
+import extract from '../assets/img/extract.jpg'
 const OurProduct = [
     {
       "image":microgreen,
       "text":"MICROGREEN",
-      "to":"/coming"
+      "to":"/microgreen"
     },
     {
        "image":Kamboccha,
-       "text":"KAMBOCCHA",
+       "text":"Probiotic Kombucha",
        "to":"/Kambucha"
     },
     {
       "image":Kesar,
-      "text":"KESAR",
-      "to":"/"
+      "text":"Lab Based Saffron",
+      "to":"/safron"
     },
     {
       "image":wine,
-      "text":"WINE",
-      "to":"/"
+      "text":"Microgreens-influenced Wines",
+      "to":"/wine"
     },
    {
       "image":colors,
-      "text":"COLORS",
-      "to":"/"
+      "text":"Plant Based Colors",
+      "to":"/color"
    },
    {
      "image":perfume,
-     "text":"PERFUME",
-     "to":"/"
+     "text":"Plant Based Perfume",
+     "to":"/perfume"
    },
 ]
 

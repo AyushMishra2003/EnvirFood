@@ -8,13 +8,18 @@ import ContactPage from './ContactPage'
 import Kambucha from './Kambucha'
 import AboutUsPage from './AboutUsPage'
 import ComingSoon from './ComingSoon'
-// import ScrollToTop from '.'
+import Safron from './productImage/Safron'
+import Wine from './productImage/Wine'
+import Colors from './productImage/Colors'
+import Perfume from './productImage/Perfume'
+import Flavour from './productImage/Flavour'
+import Microgreen from './productImage/Microgreen'
 const App = () => {
   useEffect(()=>{
     window.scrollTo(0, 0);
   },[])
   return (
-      <div className='flex flex-col items-center overflow-x-hidden'>
+      <div className='flex flex-col items-center justify-between overflow-x-hidden'>
        <Header/> 
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -22,6 +27,12 @@ const App = () => {
         <Route path='/Kambucha' element={<Kambucha/>}/>
         <Route path='/About' element={<AboutUsPage/>}/>
         <Route path='/coming' element={<ComingSoon/>}/>
+        <Route path='/safron' element={<Safron/>}/>
+        <Route path='/wine' element={<Wine/>}/>
+        <Route path='/color' element={<Colors/>}/>
+        <Route path='/perfume' element={<Perfume/>}/>
+        <Route path='/flavour' element={<Flavour/>}/>
+        <Route path='/microgreen' element={<Microgreen/>}/>
         </Routes>
         <Footer/>
         </div>

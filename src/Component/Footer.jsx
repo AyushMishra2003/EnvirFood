@@ -26,15 +26,12 @@ const Footer = () => {
 
 
     return (
-        <footer className='text-white bg-black bg-main'>
+        <footer className='text-white bg-black bg-main w-[100vw]'>
             {/* <img src={footerImg} alt="" className='absolute h-full w-[100vw]' /> */}
             <div className='flex  relative flex-col xl:flex-row p-[2.5rem_1rem] md:p-[2.5_5rem] gap-8 xl:justify-around'>
                 <div className='flex flex-col gap-2'>
                     <div className='mb-3'><img className='w-[5rem]' alt="" src={logo} /></div>
-                    <p className='leading-6 xl:w-[23rem] w-full'>Welcome to the Environmental Food Research Center where we are dedicated to pioneering sustainable solutions for the food industry we understand the critical intersection between food production, environmental impact, and human health. Our mission is to conduct innovative research, foster collaboration, and provide actionable insights to promote a healthier, more sustainable future for all.
-
-
-</p>
+                    <p className='leading-6 xl:w-[23rem] w-full'>Welcome to the Environmental Food Research Center where we are dedicated to pioneering sustainable solutions for the food industry we understand the critical intersection between food production, environmental impact, and human health. Our mission is to conduct innovative research, foster collaboration, and provide actionable insights to promote a healthier, more sustainable future for all.</p>
                     <div className='flex gap-4 mt-3'>
                         <Link to={"/"} target='blank' className='text-[20px]'><BsLinkedin /></Link>
                         <Link to={"/https://www.facebook.com/envirfoods/"} target='blank'   className='text-[20px]'><BsFacebook /></Link>
@@ -53,22 +50,22 @@ const Footer = () => {
                             <div className='flex flex-col gap-4 mt-6 '>
                                 <Link to={'/'} className={listStyle}><MdKeyboardDoubleArrowRight />Home</Link>
                                 {/* <Link to={'/'} className={listStyle}><MdKeyboardDoubleArrowRight />Company</Link> */}
-                                <Link to={'/coming'} className={listStyle}><MdKeyboardDoubleArrowRight />Services</Link>
+                                <Link to={'/about'} className={listStyle}><MdKeyboardDoubleArrowRight />About</Link>
 
-                                <Link to={'/coming'} className={listStyle}><MdKeyboardDoubleArrowRight />Latest Research</Link>
+                                {/* <Link to={'/coming'} className={listStyle}><MdKeyboardDoubleArrowRight />Latest Research</Link> */}
                                 <Link to={'/contact'} className={listStyle}><MdKeyboardDoubleArrowRight />Contact</Link>
 
                             </div>
                         </div>
                         <div className='w-ful sm:w-[50%] md:w-[14rem] '>
                             <div>
-                                <p className='text-[1.09rem] font-[600]'>OUR SERVICES</p>
+                                <p className='text-[1.09rem] font-[600]'>OUR PRODUCT</p>
                                 <p className='w-[80vw] sm:w-[80%] lg:w-[15rem] md:w-[12rem] m-[9px_0] h-[3.4px] bg-[linear-gradient(to_right,#35C8F2,#27B872)] rounded-md'></p>
                             </div>
                             <div className='flex flex-col gap-4 mt-6 '>
-                                <Link to={'/coming'} className={listStyle}><MdKeyboardDoubleArrowRight />Food Development</Link>
-                                <Link to={'/coming'} className={listStyle}><MdKeyboardDoubleArrowRight />Sea Food Development</Link>
-                                <Link to={'/coming'} className={listStyle}><MdKeyboardDoubleArrowRight />Nutrition Intelligence</Link>
+                                <Link to={'/safron'} className={listStyle}><MdKeyboardDoubleArrowRight />Lab-Based Saffron</Link>
+                                <Link to={'/perfume'} className={listStyle}><MdKeyboardDoubleArrowRight />Plant-Based Perfume</Link>
+                                <Link to={'/color'} className={listStyle}><MdKeyboardDoubleArrowRight />Plant-Based-Colors</Link>
                             </div>
                         </div>
                     </div>
