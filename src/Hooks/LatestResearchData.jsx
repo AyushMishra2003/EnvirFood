@@ -21,7 +21,7 @@ const useLatestResearchData=[
         "image":kesar,
         "For":"Kesar",
          "content":"At the Environmental Food Research Center , we are passionate about exploring the potential of natural ingredients to enhance both culinary experiences and environmental sustainability.",
-         "link":"/kesar"
+         "link":"/safron"
     },
 ]
 export default useLatestResearchData
