@@ -5,6 +5,7 @@ const Perfume = () => {
     window.scrollTo(0, 0);
   },[])
   return (
+    <div>
     <div className='flex flex-col-reverse w-[100vw] items-start justify-center lg:flex-row lg:gap-[2rem] lg:pt-2 lg:pb-3 xl:gap-[4rem]'>
       <div className= 'flex flex-col gap-2 '>
         <h1 className='text-[1.2rem] text-center text-[#803136] font-bold'>What is Plant Based Perfume </h1>
@@ -15,9 +16,12 @@ const Perfume = () => {
           </p>
           <p>Indulge in the essence of nature with our Plant-Based Perfumes, where each fragrance is a celebration of biodiversity and the interconnectedness of all living things. With every spritz, immerse yourself in the beauty of the natural world and rediscover your connection to the environment.</p>
         </div>
+        <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
       </div> 
+      <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
        <img src={product1} className='w-full lg:w-[20rem] xl:w-[25rem]' alt="BuchaDrink" />
     </div>
+   </div> 
   )
 }
 

@@ -13,17 +13,17 @@ import logo from '../assets/img/eflogo1.png'
 const Header = () => {
   return (
     <div className="text-green-500 bg-black navbar">
-  <div className="navbar-start ">
+  <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
         <GiHamburgerMenu className='text-[1.5rem]'/>
       </div>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] shadow  w-[100vw] transition-[2s] flex flex-col items-center gap-[2.5rem]  absolute top-[-2rem] left-[-1rem]  bg-black ">
-       <div className='flex justify-center items-center gap-[2rem] '> 
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] shadow  w-[100vw] transition-[2s] flex flex-col items-center gap-[2.5rem]  absolute top-[-2rem] left-[-1rem]  bg-black">
+       <div className='flex justify-center items-center gap-[2rem] z-60'> 
          <Link to={"/"}>
             <img  className='w-[4rem] '  src={logo} alt="ecologo"  />
          </Link>
-        <Link>
+        <Link to={"/"}>
             <p className='sm:text-[1.3rem] text-[1.2rem] font-a'>Environmental Food Pvt Ltd</p>
         </Link>
         </div> 
@@ -31,10 +31,10 @@ const Header = () => {
         <Link to="/"><li className='border-t w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem] '>Home</a></li></Link>
       <Link to={"/Contact"}><li className='text-[1.2rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Contact Us</a></li></Link>
       <Link to={"/About"}><li className='text-[1.2rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>About Us</a></li></Link>
-      <Link to={"/"}><li className='text-[1rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Application</a></li></Link>
+      {/* <Link to={"/"}><li className='text-[1rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Application</a></li></Link> */}
         {/* <li className='border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Application</a></li> */}
-        <li className='border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Industry</a></li>
-        <li className='border-y  border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Insight</a></li>
+        {/* <li className='border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Industry</a></li>
+        <li className='border-y  border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Insight</a></li> */}
         </div>
       </ul>
     </div>
@@ -47,7 +47,7 @@ const Header = () => {
         </Link>
        </div>
   </div>
-
+ 
   <div className="hidden navbar-center lg:flex ">
     <ul className="px-1 menu menu-horizontal">
     <Link to={"/"}><li  className='hover:bg-[#1a1a1a7c]'><a className='text-[1rem] '>Home</a></li></Link>

@@ -63,9 +63,12 @@ const Footer = () => {
                                 <p className='w-[80vw] sm:w-[80%] lg:w-[15rem] md:w-[12rem] m-[9px_0] h-[3.4px] bg-[linear-gradient(to_right,#35C8F2,#27B872)] rounded-md'></p>
                             </div>
                             <div className='flex flex-col gap-4 mt-6 '>
+                                <Link to={'/microgreen'} className={listStyle}><MdKeyboardDoubleArrowRight />Micogreen</Link>
+                                <Link to={'/Kambucha'} className={listStyle}><MdKeyboardDoubleArrowRight />Probiotic Kombucha</Link>
                                 <Link to={'/safron'} className={listStyle}><MdKeyboardDoubleArrowRight />Lab-Based Saffron</Link>
-                                <Link to={'/perfume'} className={listStyle}><MdKeyboardDoubleArrowRight />Plant-Based Perfume</Link>
+                                <Link to={'/wine'} className={listStyle}><MdKeyboardDoubleArrowRight />Microgreen Influenced Wines</Link>
                                 <Link to={'/color'} className={listStyle}><MdKeyboardDoubleArrowRight />Plant-Based-Colors</Link>
+                                <Link to={'/perfume'} className={listStyle}><MdKeyboardDoubleArrowRight />Plant-Based-Perfume</Link>
                             </div>
                         </div>
                     </div>
@@ -79,7 +82,7 @@ const Footer = () => {
                             <Link to={'/'} className={`${contactStyle} lg:items-center`}><MdOutlineSmartphone />+91 6387404696</Link>
                             <Link to={'/'} className={`${contactStyle} lg:items-center`}><IoMdMail />info@envirfoods.in</Link>
                             <Link to={'/'} className={`${contactStyle} lg:items-center`}><FaLocationDot />BHU, Varanasi, India</Link>
-                            <Link to={'/'} className={`${contactStyle} md:items-start`}><FaLocationDot className='md:text-[1.7rem] text-[1rem] items-center' />4th floor CDC Building, BHU Varanasi, Uttar Pradesh 221005</Link>
+                            <Link to={'/'} className={`${contactStyle} md:items-start`}><FaLocationDot className='md:text-[1.7rem] text-[1rem] items-center' />4th floor BIONEST CDC Building, BHU Varanasi, Uttar Pradesh 221005</Link>
                         </div>
                     </div>
                 </div>

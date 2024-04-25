@@ -5,6 +5,7 @@ const Flavour = () => {
     window.scrollTo(0, 0);
   },[])
   return (
+    <div>
     <div className='flex flex-col-reverse w-[100vw] items-start justify-center lg:flex-row lg:gap-[2rem] lg:pt-2 lg:pb-3 xl:gap-[4rem]'>
       <div className= 'flex flex-col gap-2 '>
         <h1 className='text-[1.2rem] text-center text-[#803136] font-bold'>What is Micogreens-Infuenced Wines</h1>
@@ -15,8 +16,10 @@ const Flavour = () => {
           </p>
           <p>Indulge in the unique flavors and textures of our Microgreens-Influenced Wines, and embark on a journey of discovery where tradition meets innovation in perfect harmony. With every bottle, we invite you to raise a glass to the future of wine, where sustainability, flavor, and creativity intertwine to create an unforgettable experience</p>
         </div>
+        <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
       </div> 
        <img src={wine} className='w-full lg:w-[20rem] xl:w-[25rem]' alt="BuchaDrink" />
+    </div>
     </div>
   )
 }

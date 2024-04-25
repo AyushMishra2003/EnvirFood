@@ -25,7 +25,7 @@ const OurProduct = [
     },
     {
       "image":wine,
-      "text":"Microgreens-influenced Wines",
+      "text":"Microgreen-influenced Wines",
       "to":"/wine"
     },
    {

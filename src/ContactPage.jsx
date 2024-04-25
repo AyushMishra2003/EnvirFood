@@ -6,6 +6,9 @@ import { FaLinkedin } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { Link } from 'react-router-dom';
 const ContactPage = () => {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   return (
     <div className='bg-[#0B0E11] text-white  w-[100vw] flex flex-col  items-center justify-center pt-[5rem] pb-[0.6rem] '>
         <div className='flex flex-col items-center gap-[4rem] '> 

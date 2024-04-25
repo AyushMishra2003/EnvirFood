@@ -11,37 +11,37 @@ import img8 from '../assets/img/teamRavi.jpg'
 const useTeamData=[
     {
       "image":img2,
-      "name":"Mr ATUL PANDEY",
+      "name":"Mr. Atul Pandey",
       "profession":"Founder Director"
     },
     {
       "image":img6,
-      "name":"Mr Dinesh kr. Maurya",
+      "name":"Mr. Dinesh kr Maurya",
       "profession":"Director & Mentor"
     },
     {
       "image":img1,
-      "name":"DR.TARUN VERMA",
+      "name":"Dr. Tarun Verma",
       "profession":"Scientific Advisor"
     },
     {
         "image":img7,
-        "name":"Mr Rajesh Tiwari",
+        "name":"Mr. Rajesh Tiwari",
         "profession":"Director in International Trade"
     },
     {
         "image":img5,
-        "name":"Mr KUWAR PRATIK SINGH",
-        "profession":"Project Manager"
+        "name":"Mr. Kuwar Pratik SINGH",
+        "profession":"Director in R&D"
     },
     {
        "image":img4,
-      "name":"Miss TANISHA GUPTA",
+      "name":"Miss. Tanisha Gupta",
       "profession":"Project Manager"
     },
     {
       "image":img8,
-      "name":"Mr.Ravi Pratap Singh",
+      "name":"Mr. Ravi Pratap Singh",
       "profession":"Director in  Distribution & Supply"
     }
 ]

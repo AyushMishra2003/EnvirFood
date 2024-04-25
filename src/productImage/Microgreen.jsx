@@ -5,6 +5,7 @@ const Microgreen = () => {
         window.scrollTo(0, 0);
       },[])
   return (
+    <div>
       <div className='flex flex-col-reverse w-[100vw] items-start justify-center lg:flex-row lg:gap-[2rem] lg:pt-2 lg:pb-3 xl:gap-[4rem]'>
       <div className= 'flex flex-col gap-2 '>
         <h1 className='text-[1.2rem] text-center text-[#803136] font-bold'>Nutrient Rich MICROGREEN SAUCES</h1>
@@ -15,8 +16,11 @@ const Microgreen = () => {
           </p>
           <p>Embrace the future of food with our microgreen-infused creations, where health, flavor, and sustainability converge in perfect harmony. Experience the difference of our sauces and taste the extraordinary in every bite.</p>
         </div>
+        <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
       </div> 
        <img src={product} className='w-full lg:w-[20rem] xl:w-[30rem]' alt="BuchaDrink" />
+    </div>
+     
     </div>
   )
 }

@@ -5,7 +5,8 @@ const Colors = () => {
     window.scrollTo(0, 0);
   },[])
   return (
-    <div className='flex flex-col-reverse w-[100vw] items-start justify-center lg:flex-row lg:gap-[2rem] lg:pt-2 lg:pb-3 xl:gap-[4rem]'>
+    <div className='border border-green-500 flex flex-col items-center justify-center'>
+    <div className='flex flex-col-reverse w-[100vw] items-start justify-center lg:flex-row lg:gap-[2rem] lg:pt-2 lg:pb-3 xl:gap-[4rem] border  border-red-500'>
       <div className= 'flex flex-col gap-2 '>
         <h1 className='text-[1.2rem] text-center text-[#803136] font-bold'>What is Plant Based Colors </h1>
         <div className='flex flex-col gap-3 pl-1 lg:w-[40rem] xl:w-[44rem]'>
@@ -15,8 +16,10 @@ const Colors = () => {
           </p>
           <p>Join us in celebrating the beauty of nature with our Plant-Based Colors, where every shade tells a story of sustainability, creativity, and a deep reverence for the world around us. Let your products shine with the vibrant colors of the earth, and make a statement that echoes our commitment to a brighter, greener future.</p>
         </div>
+        <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
       </div> 
        <img src={color} className='w-full lg:w-[20rem] xl:w-[30rem]' alt="BuchaDrink" />
+    </div>
     </div>
   )
 }
