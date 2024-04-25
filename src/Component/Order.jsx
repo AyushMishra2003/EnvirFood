@@ -31,11 +31,13 @@ const Order = () => {
         name='category'
          >
         <option name="category" value="" >Select</option>
+        <option name="category" value="Sole Proprietorship" >Microgreen Sauces</option>
         <option name="category" value="Sole Proprietorship" >Probiotic Kombucha</option>
         <option name="category" value="Limited Liability Partnerships">Lab Based Safron</option>
-        <option name="category" value="Limited Liability Company" >Natural Wine</option>
-        <option name="category" value="Farmer Producer Company">Natural Colors</option>
-        <option name="category" value="Corporation" >Natural Perfume</option>
+        <option name="category" value="Limited Liability Company" >Microgreens Influenced Wines</option>
+        <option name="category" value="Farmer Producer Company">Plant Based Colors</option>
+        <option name="category" value="Corporation" >Plant Based Perfume</option>
+        <option name="category" value="Corporation" >Plant Based Flavor Extracts</option>
     </select>
 </div>
 </div>
