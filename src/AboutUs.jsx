@@ -11,10 +11,10 @@ const AboutUs = () => {
       <div className='flex flex-col justify-center gap-[1.3rem]   lg:items-start  p-[2rem] lg:w-[38rem] xl:w-[40rem] '>
         <div>
         <p className='text-[#4BAF47] text-start text-[1.2rem] font-bold'>ABOUT US</p>
-        <p className='text-[2.2rem]  font-bold sm:text-[2.5rem] text-black '>Environmental Food</p>
+        <p className='text-[2.2rem]  font-bold sm:text-[2.5rem] text-black '>Environmental Foods</p>
       </div>
       <div className=' flex flex-col gap-[1.2rem] '>
-      <p className='text-[1.2rem] font-bold  w-[18rem] msm:w-[22rem] sm:w-[30rem]  lg:w-[32rem] md:w-[37rem] text-black'>Welcome to the <span className='text-[#4BAF47]'>Environmental Food Research Center</span> where we are dedicated to pioneering sustainable solutions for the food industry we understand the critical intersection between food production, environmental impact, and human health. Our mission is to conduct innovative research, foster collaboration, and provide actionable insights to promote a healthier, more sustainable future for all.</p>
+      <p className='text-[1.2rem] font-bold  w-[18rem] msm:w-[22rem] sm:w-[30rem]  lg:w-[32rem] md:w-[37rem] text-black'>Welcome to the <span className='text-[#4BAF47]'>Environmental Foods Research Center</span> where we are dedicated to pioneering sustainable solutions for the food industry we understand the critical intersection between food production, environmental impact, and human health. Our mission is to conduct innovative research, foster collaboration, and provide actionable insights to promote a healthier, more sustainable future for all.</p>
       <div >
         <div className='flex items-center gap-[1rem] text-black'>
            <p className=' border-none rounded-[50%] p-[0.1rem] bg-[#EEC044]'><TiTick className='text-[#ffffff]  text-[1.3rem]'/></p>

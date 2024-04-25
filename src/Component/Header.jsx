@@ -9,7 +9,7 @@ import { FaArrowAltCircleDown } from "react-icons/fa";
 import { FaArrowCircleDown } from "react-icons/fa";
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { Link } from 'react-router-dom';
-import logo from '../assets/productImg/envir.jpeg'
+import logo from '../assets/productImg/envirlogo.jpg'
 const Header = () => {
   return (
     <div className="text-green-500 bg-black navbar">
@@ -21,7 +21,7 @@ const Header = () => {
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] shadow  w-[100vw] transition-[2s] flex flex-col items-center gap-[2.5rem]  absolute top-[-2rem] left-[-1rem]  bg-black">
        <div className='flex justify-center items-center gap-[2rem] z-60'> 
          <Link to={"/"}>
-            <img  className='w-[4rem] '  src={logo} alt="ecologo"  />
+            <img  className='w-[4rem] h-[4rem] rounded-full '  src={logo} alt="ecologo"  />
          </Link>
         <Link to={"/"}>
             <p className='sm:text-[1.3rem] text-[1.2rem] font-a'>Environmental Food Pvt Ltd</p>
