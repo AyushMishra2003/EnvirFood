@@ -9,7 +9,7 @@ import { FaArrowAltCircleDown } from "react-icons/fa";
 import { FaArrowCircleDown } from "react-icons/fa";
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { Link } from 'react-router-dom';
-import logo from '../assets/img/eflogo1.png'
+import logo from '../assets/productImg/envir.jpeg'
 const Header = () => {
   return (
     <div className="text-green-500 bg-black navbar">
@@ -64,6 +64,7 @@ const Header = () => {
       </li> */}
       <Link to={"/Contact"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Contact Us</a></li></Link>
       <Link to={"/About"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>About Us</a></li></Link>
+      <Link to={"/shop"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Shop</a></li></Link>
     </ul>
   </div>
   {/* ICONS -HEADER */}

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import color from '../assets/productImg/colors.jpeg'
+import { Link } from 'react-router-dom';
 const Colors = () => {
   useEffect(()=>{
     window.scrollTo(0, 0);
@@ -16,7 +17,8 @@ const Colors = () => {
           </p>
           <p>Join us in celebrating the beauty of nature with our Plant-Based Colors, where every shade tells a story of sustainability, creativity, and a deep reverence for the world around us. Let your products shine with the vibrant colors of the earth, and make a statement that echoes our commitment to a brighter, greener future.</p>
         </div>
-        <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
+       <Link to={"/shop"}><button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>MAKE ORDER</button>
+       </Link>
       </div> 
        <img src={color} className='w-full lg:w-[20rem] xl:w-[30rem]' alt="BuchaDrink" />
     </div>

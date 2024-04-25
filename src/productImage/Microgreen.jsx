@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import product from '../assets/productImg/mircogreen.jpeg'
+import { Link } from 'react-router-dom'
 const Microgreen = () => {
     useEffect(()=>{
         window.scrollTo(0, 0);
@@ -16,7 +17,8 @@ const Microgreen = () => {
           </p>
           <p>Embrace the future of food with our microgreen-infused creations, where health, flavor, and sustainability converge in perfect harmony. Experience the difference of our sauces and taste the extraordinary in every bite.</p>
         </div>
-        <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
+        <Link to={"/shop"}><button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>MAKE ORDER</button>
+       </Link>
       </div> 
        <img src={product} className='w-full lg:w-[20rem] xl:w-[30rem]' alt="BuchaDrink" />
     </div>

@@ -1,6 +1,7 @@
 import React ,{useEffect}from 'react'
 import safron1 from '../assets/productImg/safron.jpg'
 import safron2 from '../assets/img/safron2.jpg'
+import { Link } from 'react-router-dom'
 const Safron = () => {
   useEffect(()=>{
     window.scrollTo(0, 0);
@@ -47,7 +48,8 @@ const Safron = () => {
         <div className='xl:w-[30rem] flex flex-col gap-2'>
              <h1 className='text-[2.5rem] text-[#321863] font-mono '>Trial Pack</h1>
              <p className='text-[1.2rem] font-normal'>If you're looking to purchase Natural Safrons products, you have several options depending on your location and preferences. Here are some common places where you can buy Safron</p>
-             <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
+             <Link to={"/shop"}><button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>MAKE ORDER</button>
+       </Link>
         </div>
       </div>
     </div>

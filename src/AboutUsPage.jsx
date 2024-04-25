@@ -39,7 +39,7 @@ const AboutUsPage = () => {
           </div>
           <div className='flex flex-col gap-3 font-normal'>
             <div className='flex flex-col items-start'>
-              <p className='font-bold text-[1rem]'>Substaiable:</p>
+              <p className='font-bold text-[1rem]'>Sustainable:</p>
               <p className='lg:w-[50rem]'> We're dedicated to pioneering agricultural practices that work in harmony with nature. From regenerative farming techniques to organic cultivation methods, we're committed to minimizing environmental impact while maximizing yields.</p>
             </div>
             <div className='flex flex-col items-start gap-3 '>

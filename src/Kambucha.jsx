@@ -7,7 +7,7 @@ import packing from './assets/img/packing.jfif'
 import Typewriter from './Hooks/Typewriter'
 import reason from './assets/img/reason.avif'
 import { TiTick } from "react-icons/ti";
-
+import { Link } from 'react-router-dom'
 const Kambucha = () => {
   useEffect(()=>{
     window.scrollTo(0, 0);
@@ -49,7 +49,8 @@ const Kambucha = () => {
         <div className='xl:w-[30rem] flex flex-col  gap-[2rem] '>
              <h1 className='text-[2.5rem] text-[#321863] font-mono '>Trial Pack</h1>
              <p className='text-[1.2rem] font-normal'>If you're looking to purchase kombucha products, you have several options depending on your location and preferences. Here are some common places where you can buy kombucha</p>
-             <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
+             <Link to={"/shop"}><button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>MAKE ORDER</button>
+       </Link>
         </div>
       </div>
     </div>

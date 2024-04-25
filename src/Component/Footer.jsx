@@ -13,7 +13,7 @@ import { IoMdMail } from "react-icons/io";
 
 import { Link } from 'react-router-dom'
 import { FaLocationDot } from 'react-icons/fa6';
-import logo from '../assets/img/eflogo1.png'
+import logo from '../assets/productImg/envir.jpeg'
 
 
 const Footer = () => {
@@ -82,7 +82,7 @@ const Footer = () => {
                             <Link to={'/'} className={`${contactStyle} lg:items-center`}><MdOutlineSmartphone />+91 6387404696</Link>
                             <Link to={'/'} className={`${contactStyle} lg:items-center`}><IoMdMail />info@envirfoods.in</Link>
                             <Link to={'/'} className={`${contactStyle} lg:items-center`}><FaLocationDot />BHU, Varanasi, India</Link>
-                            <Link to={'/'} className={`${contactStyle} md:items-start`}><FaLocationDot className='md:text-[1.7rem] text-[1rem] items-center' />4th floor BIONEST CDC Building, BHU Varanasi, Uttar Pradesh 221005</Link>
+                            <Link to={'/'} className={`${contactStyle} md:items-start`}><FaLocationDot className='md:text-[1.7rem] text-[1rem] items-center' />4th floor, (Bionest-BHU), CDC Building, BHU Campus, Varanasi-221005(UP)</Link>
                         </div>
                     </div>
                 </div>

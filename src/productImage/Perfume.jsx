@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import product1 from '../assets/productImg/perfume.jpeg'
+import { Link } from 'react-router-dom'
 const Perfume = () => {
   useEffect(()=>{
     window.scrollTo(0, 0);
@@ -18,7 +19,8 @@ const Perfume = () => {
         </div>
         <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
       </div> 
-      <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
+      <Link to={"/shop"}><button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>MAKE ORDER</button>
+       </Link>
        <img src={product1} className='w-full lg:w-[20rem] xl:w-[25rem]' alt="BuchaDrink" />
     </div>
    </div> 

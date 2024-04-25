@@ -1,16 +1,16 @@
 import React from 'react'
-import aboutus from './assets/img/aboutusimg.png'
+import aboutus from './assets/productImg/AboutEnvir.jpeg'
 import { TiTick } from "react-icons/ti";
 import { Link } from 'react-router-dom';
 const AboutUs = () => {
   return (
     <div className='flex flex-col  items-center justify-center  lg:flex-row lg:gap-[2rem] pt-[1.5rem]  text-black '>
       <div>
-        <img src={aboutus} className='w-[18rem] sm:w-[35rem] lg:w-[22rem] xl:w-[25rem]' alt="" />
+        <img src={aboutus} className='w-[18rem] h-[18rem] sm:w-[35rem] sm:h-[35rem] lg:w-[22rem] lg:h-[22rem] xl:w-[25rem] xl:h-[25rem] rounded-full' alt="" />
       </div>
       <div className='flex flex-col justify-center gap-[1.3rem]   lg:items-start  p-[2rem] lg:w-[38rem] xl:w-[40rem] '>
         <div>
-        <p className='text-[#4BAF47] text-start text-[1.2rem] font-bold italic'>ABOUT US</p>
+        <p className='text-[#4BAF47] text-start text-[1.2rem] font-bold'>ABOUT US</p>
         <p className='text-[2.2rem]  font-bold sm:text-[2.5rem] text-black '>Environmental Food</p>
       </div>
       <div className=' flex flex-col gap-[1.2rem] '>

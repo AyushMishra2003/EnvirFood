@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import flavor from '../assets/img/wineBottle.jpg'
+import { Link } from 'react-router-dom'
 const Flavour = () => {
   useEffect(()=>{
     window.scrollTo(0, 0);
@@ -16,7 +17,8 @@ const Flavour = () => {
           </p>
           <p>Indulge in the unique flavors and textures of our Microgreens-Influenced Wines, and embark on a journey of discovery where tradition meets innovation in perfect harmony. With every bottle, we invite you to raise a glass to the future of wine, where sustainability, flavor, and creativity intertwine to create an unforgettable experience</p>
         </div>
-        <button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>SHOP</button>
+        <Link to={"/shop"}><button className='px-[4rem] p-[0.4rem]  rounded-[0.3rem] bg-[#321863] text-white  hover:bg-white hover:text-black border border-[#321863] ease-in duration-300 w-fit'>MAKE ORDER</button>
+       </Link>
       </div> 
        <img src={wine} className='w-full lg:w-[20rem] xl:w-[25rem]' alt="BuchaDrink" />
     </div>
