@@ -10,7 +10,7 @@ const Order = () => {
     const main = 'font-[350] text-[0.93rem] tracking-wide text-white list-disc'
     const paraMain = 'flex flex-col items-start justify-center gap-2 p-2 pl-4'
   return (
-    <div className='flex flex-col items-center justify-center w-[100vw] p-[1rem] gap-[2rem]'>
+    <div className='flex flex-col items-center justify-center w-[100vw] '>
           <h1 className='text-[2rem] text-[#22A018] font-bold'>Make  Order</h1>
           <form  className='flex flex-col lg:flex-row items-start justify-center gap-4 w-fit  bg-[#207912c7] p-[2rem] py-[2rem]  sm:p-4 rounded-md shadow-sm shadow-light  '>
 <div className='flex flex-col gap-[1.2rem]'>
@@ -31,13 +31,13 @@ const Order = () => {
         name='category'
          >
         <option name="category" value="" >Select</option>
-        <option name="category" value="Sole Proprietorship" >Microgreen Sauces</option>
-        <option name="category" value="Sole Proprietorship" >Probiotic Kombucha</option>
-        <option name="category" value="Limited Liability Partnerships">Lab Based Safron</option>
-        <option name="category" value="Limited Liability Company" >Microgreens Influenced Wines</option>
-        <option name="category" value="Farmer Producer Company">Plant Based Colors</option>
-        <option name="category" value="Corporation" >Plant Based Perfume</option>
-        <option name="category" value="Corporation" >Plant Based Flavor Extracts</option>
+        <option name="category" value="" >Microgreen Sauces</option>
+        <option name="category" value="" >Probiotic Kombucha</option>
+        <option name="category" value="">Lab Based Safron</option>
+        <option name="category" value="" >Microgreens Influenced Wines</option>
+        <option name="category" value="">Plant Based Colors</option>
+        <option name="category" value="" >Plant Based Perfume</option>
+        <option name="category" value="" >Plant Based Flavor Extracts</option>
     </select>
 </div>
 </div>
@@ -51,13 +51,13 @@ const Order = () => {
         name='category'
          >
         <option name="category" value="" >Select</option>
-        <option name="category" value="Sole Proprietorship" >1 Box</option>
-        <option name="category" value="Limited Liability Partnerships">2 Box</option>
-        <option name="category" value="Limited Liability Company" >3 Box</option>
-        <option name="category" value="Farmer Producer Company">4 Box</option>
-        <option name="category" value="Corporation" >5 Box</option>
-        <option name="category" value="Corporation" >6 Box</option>
-        <option name="category" value="Corporation" >7 Box</option>
+        <option name="category" value="S" >1 Box</option>
+        <option name="category" value="">2 Box</option>
+        <option name="category" value="" >3 Box</option>
+        <option name="category" value="">4 Box</option>
+        <option name="category" value="" >5 Box</option>
+        <option name="category" value="" >6 Box</option>
+        <option name="category" value="" >7 Box</option>
 
     </select>
 </div>

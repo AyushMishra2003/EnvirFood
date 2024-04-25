@@ -31,12 +31,12 @@ const Footer = () => {
             <div className='flex  relative flex-col xl:flex-row p-[2.5rem_1rem] md:p-[2.5_5rem] gap-8 xl:justify-around'>
                 <div className='flex flex-col gap-2'>
                     <div className='mb-3'><img className='w-[5rem]' alt="" src={logo} /></div>
-                    <p className='leading-6 xl:w-[23rem] w-full'>Welcome to the Environmental Food Research Center where we are dedicated to pioneering sustainable solutions for the food industry we understand the critical intersection between food production, environmental impact, and human health. Our mission is to conduct innovative research, foster collaboration, and provide actionable insights to promote a healthier, more sustainable future for all.</p>
+                    <p className='leading-6 xl:w-[23rem] w-full'>Welcome to the Environmentals Food Research Center where we are dedicated to pioneering sustainable solutions for the food industry we understand the critical intersection between food production, environmental impact, and human health. Our mission is to conduct innovative research, foster collaboration, and provide actionable insights to promote a healthier, more sustainable future for all.</p>
                     <div className='flex gap-4 mt-3'>
                         <Link to={"/"} target='blank' className='text-[20px]'><BsLinkedin /></Link>
-                        <Link to={"/https://www.facebook.com/envirfoods/"} target='blank'   className='text-[20px]'><BsFacebook /></Link>
+                        <Link to={"https://www.facebook.com/envirfoods/"} target='blank'   className='text-[20px]'><BsFacebook /></Link>
                         <Link to={"/"}  className='text-[20px]'><BsWhatsapp /></Link>
-                        <Link to={"/https://www.instagram.com/envirfoods?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} target='blank' className='text-[20px]'><BsInstagram /></Link>
+                        <Link to={"https://www.instagram.com/envirfoods?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} target='blank' className='text-[20px]'><BsInstagram /></Link>
                         <Link  to={"/"} className='text-[20px]'><BsTwitter /></Link>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const Footer = () => {
                         <div className='w-[80vw] sm:w-[50%] md:w-[14rem]'>
                             <div>
                                 <p className='text-[1.09rem] font-[600]'>ABOUT US</p>
-                                <p className='w-[80vw] sm:w-[80%] md:w-[12rem] lg:w-[15rem] m-[9px_0] h-[3.4px] bg-[linear-gradient(to_right,#35C8F2,#27B872)] rounded-md'></p>
+                                <p className='w-[80vw] sm:w-[80%] md:w-[12rem] lg:w-[15rem] m-[9px_0] h-[3.4px] bg-[linear-gradient(to_right,#28d611,#27B872)] rounded-md'></p>
                             </div>
                             <div className='flex flex-col gap-4 mt-6 '>
                                 <Link to={'/'} className={listStyle}><MdKeyboardDoubleArrowRight />Home</Link>
@@ -60,10 +60,10 @@ const Footer = () => {
                         <div className='w-ful sm:w-[50%] md:w-[14rem] '>
                             <div>
                                 <p className='text-[1.09rem] font-[600]'>OUR PRODUCT</p>
-                                <p className='w-[80vw] sm:w-[80%] lg:w-[15rem] md:w-[12rem] m-[9px_0] h-[3.4px] bg-[linear-gradient(to_right,#35C8F2,#27B872)] rounded-md'></p>
+                                <p className='w-[80vw] sm:w-[80%] lg:w-[15rem] md:w-[12rem] m-[9px_0] h-[3.4px] bg-[linear-gradient(to_right,#28d611,#27B872)] rounded-md'></p>
                             </div>
                             <div className='flex flex-col gap-4 mt-6 '>
-                                <Link to={'/microgreen'} className={listStyle}><MdKeyboardDoubleArrowRight />Micogreen</Link>
+                                <Link to={'/microgreen'} className={listStyle}><MdKeyboardDoubleArrowRight />Micogreen Sauces</Link>
                                 <Link to={'/Kambucha'} className={listStyle}><MdKeyboardDoubleArrowRight />Probiotic Kombucha</Link>
                                 <Link to={'/safron'} className={listStyle}><MdKeyboardDoubleArrowRight />Lab-Based Saffron</Link>
                                 <Link to={'/wine'} className={listStyle}><MdKeyboardDoubleArrowRight />Microgreen Influenced Wines</Link>
@@ -75,7 +75,7 @@ const Footer = () => {
                     <div className='md:w-[16rem] w-[80vw]'>
                         <div>
                             <p className='text-[1.09rem] font-[600]'>CONTACT US</p>
-                            <p className='w-[80vw] md:w-[16rem] m-[9px_0] h-[3.4px] bg-[linear-gradient(to_right,#35C8F2,#27B872)] rounded-md'></p>
+                            <p className='w-[80vw] md:w-[16rem] m-[9px_0] h-[3.4px] bg-[linear-gradient(to_right,#28d611,#27B872)] rounded-md'></p>
                         </div>
                         <div className='flex flex-col gap-4 mt-6 '>
                             <Link to={'/'} className={`${contactStyle} lg:items-center`}><CiClock1 />10:00AM - 06:00PM</Link>

@@ -8,7 +8,7 @@ const Wine = () => {
   return (
     <div className='flex flex-col items-center justify-center'>
     <div className='flex flex-col-reverse w-[100vw] items-start justify-center lg:flex-row lg:gap-[2rem] lg:pt-2 lg:pb-3 xl:gap-[4rem]'>
-      <div className= 'flex flex-col gap-2 '>
+      <div className= 'flex flex-col gap-2 p-[1rem] '>
         <h1 className='text-[1.2rem] text-center text-[#803136] font-bold'>What is Micogreens-Infuenced Wines</h1>
         <div className='flex flex-col gap-3 pl-1 lg:w-[40rem] xl:w-[44rem]'>
           <p className='sm:text-[1.1rem] sm:font-normal'>Elevate your wine experience to new heights with our groundbreaking Microgreens-Influenced Wines, where innovation and sustainability converge in a harmonious fusion. Infused with the delicate flavors and nutrients of microgreens, our wines offer a sensory journey unlike any other, inviting you to explore a realm of taste and terroir previously uncharted.</p>

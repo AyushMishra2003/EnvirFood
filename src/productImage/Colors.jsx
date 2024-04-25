@@ -6,9 +6,9 @@ const Colors = () => {
     window.scrollTo(0, 0);
   },[])
   return (
-    <div className='border border-green-500 flex flex-col items-center justify-center'>
-    <div className='flex flex-col-reverse w-[100vw] items-start justify-center lg:flex-row lg:gap-[2rem] lg:pt-2 lg:pb-3 xl:gap-[4rem] border  border-red-500'>
-      <div className= 'flex flex-col gap-2 '>
+    <div className='flex flex-col items-center justify-center '>
+    <div className='flex flex-col-reverse w-[100vw] items-start justify-center lg:flex-row lg:gap-[2rem] lg:pt-2 lg:pb-3 xl:gap-[4rem] '>
+      <div className= 'flex flex-col gap-2  p-[1rem]'>
         <h1 className='text-[1.2rem] text-center text-[#803136] font-bold'>What is Plant Based Colors </h1>
         <div className='flex flex-col gap-3 pl-1 lg:w-[40rem] xl:w-[44rem]'>
           <p className='sm:text-[1.1rem] sm:font-normal'>  Embrace the vivid spectrum of nature with our Plant-Based Colors, bidding farewell to artificial dyes and welcoming the vibrant hues derived from fruits, vegetables, and botanical sources. These natural colorants infuse products with visual appeal, from tantalizing foods and beverages to luxurious cosmetics and textiles, all while honoring our pledge to sustainability and eco-friendliness.</p>

@@ -14,23 +14,24 @@ const Header = () => {
   return (
     <div className="text-green-500 bg-black navbar">
   <div className="navbar-start">
-    <div className="dropdown">
+    <div className=" dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
         <GiHamburgerMenu className='text-[1.5rem]'/>
       </div>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] shadow  w-[100vw] transition-[2s] flex flex-col items-center gap-[2.5rem]  absolute top-[-2rem] left-[-1rem]  bg-black">
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[10000] shadow  w-[100vw] transition-[2s] flex flex-col items-center gap-[2.5rem]  absolute top-[-2rem] left-[-1rem]  bg-black ">
        <div className='flex justify-center items-center gap-[2rem] z-60'> 
          <Link to={"/"}>
             <img  className='w-[4rem] '  src={logo} alt="ecologo"  />
          </Link>
         <Link to={"/"}>
-            <p className='sm:text-[1.3rem] text-[1.2rem] font-a'>Environmental Food Pvt Ltd</p>
+            <p className='sm:text-[1.3rem] text-[1rem] font-a'>Environmentals Food Pvt Ltd</p>
         </Link>
         </div> 
         <div className='flex flex-col items-center justify-center '>
         <Link to="/"><li className='border-t w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem] '>Home</a></li></Link>
       <Link to={"/Contact"}><li className='text-[1.2rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Contact Us</a></li></Link>
       <Link to={"/About"}><li className='text-[1.2rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>About Us</a></li></Link>
+      <Link to={"/shop"}><li className='text-[1.2rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Make Order</a></li></Link>
       {/* <Link to={"/"}><li className='text-[1rem] border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Application</a></li></Link> */}
         {/* <li className='border-t border-white w-[100vw] items-center'><a className='text-[1.2rem]'>Application</a></li> */}
         {/* <li className='border-t border-white w-[100vw] items-center p-2 hover:bg-[#1a1a1a7c]'><a className='text-[1.2rem]'>Industry</a></li>
@@ -43,7 +44,7 @@ const Header = () => {
           <img  className='w-[4rem]'  src={logo} alt="ecologo" />
         </Link>
         <Link to={"/"}> 
-             <p className='text-[1.2rem] hidden lg:block font-curve font-bold' >Environmental Food Pvt Ltd</p>
+             <p className='text-[1.2rem] hidden lg:block font-curve font-bold' >Environmental Foods Pvt Ltd</p>
         </Link>
        </div>
   </div>
