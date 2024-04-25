@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { CiInstagram } from "react-icons/ci";
