@@ -44,7 +44,7 @@ const Header = () => {
           <img  className='w-[4rem]'  src={logo} alt="ecologo" />
         </Link>
         <Link to={"/"}> 
-             <p className='text-[1.2rem] hidden lg:block font-curve font-bold' >Environmental Foods Pvt Ltd</p>
+             <p className='text-[1.2rem] hidden lg:block font-curve font-bold' >Environmental Food Pvt Ltd</p>
         </Link>
        </div>
   </div>
@@ -65,7 +65,7 @@ const Header = () => {
       </li> */}
       <Link to={"/Contact"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Contact Us</a></li></Link>
       <Link to={"/About"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>About Us</a></li></Link>
-      <Link to={"/shop"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Shop</a></li></Link>
+      <Link to={"/shop"}><li className='text-[1rem] hover:bg-[#1a1a1a7c]'><a>Make Order</a></li></Link>
     </ul>
   </div>
   {/* ICONS -HEADER */}

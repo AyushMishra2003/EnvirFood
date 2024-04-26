@@ -7,6 +7,7 @@ import img4 from '../assets/img/team4.jpeg'
 import img6 from '../assets/img/team23.jpeg'
 import img7 from '../assets/img/team1.jpeg'
 import img8 from '../assets/img/teamRavi.jpg'
+import img9 from '../assets/img/magleshTeam.jpeg'
 
 const useTeamData=[
     {
@@ -43,6 +44,11 @@ const useTeamData=[
       "image":img8,
       "name":"Mr. Ravi Pratap Singh",
       "profession":"Director in  Distribution & Supply"
+    },
+    {
+      "image":img9,
+      "name":"Mr. Manglesh Tiwari",
+      "profession":"Head of Organizational development & Media Coverage"
     }
 ]
 export default useTeamData
