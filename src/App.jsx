@@ -15,6 +15,7 @@ import Perfume from './productImage/Perfume'
 import Flavour from './productImage/Flavour'
 import Microgreen from './productImage/Microgreen'
 import Order from './Component/Order'
+import FlavorExtract from './productImage/FlavorExtract'
 const App = () => {
   useEffect(()=>{
     window.scrollTo(0, 0);
@@ -29,6 +30,7 @@ const App = () => {
         <Route path='/About' element={<AboutUsPage/>}/>
         <Route path='/coming' element={<ComingSoon/>}/>
         <Route path='/safron' element={<Safron/>}/>
+        <Route path='/extract' element={<FlavorExtract/>}/>
         <Route path='/wine' element={<Wine/>}/>
         <Route path='/color' element={<Colors/>}/>
         <Route path='/perfume' element={<Perfume/>}/>

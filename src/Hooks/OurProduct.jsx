@@ -7,6 +7,7 @@ import perfume from '../assets/img/plant based perfumes.jpg'
 import microgreen from '../assets/img/microgreen.jpeg'
 import kesar from '../assets/img/labkesar.jpg'
 import extract from '../assets/img/extract.jpg'
+import flavourExtract from '../assets/productImg/flavorExtract.jpeg'
 const OurProduct = [
     {
       "image":microgreen,
@@ -38,6 +39,11 @@ const OurProduct = [
      "text":"Plant Based Perfume",
      "to":"/perfume"
    },
+   {
+    "image":flavourExtract,
+    "text":"Plant Based Flavors Extraction",
+    "to":"/extract"
+  },
 ]
 
 export default OurProduct

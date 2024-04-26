@@ -68,6 +68,7 @@ const Footer = () => {
                                 <Link to={'/safron'} className={listStyle}><MdKeyboardDoubleArrowRight />Lab-Based Saffron</Link>
                                 <Link to={'/wine'} className={listStyle}><MdKeyboardDoubleArrowRight />Microgreen Influenced Wines</Link>
                                 <Link to={'/color'} className={listStyle}><MdKeyboardDoubleArrowRight />Plant-Based-Colors</Link>
+                                <Link to={'/extract'} className={listStyle}><MdKeyboardDoubleArrowRight />Plant-Based-Flavor-Extract</Link>
                                 <Link to={'/perfume'} className={listStyle}><MdKeyboardDoubleArrowRight />Plant-Based-Perfume</Link>
                             </div>
                         </div>
